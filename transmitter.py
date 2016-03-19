@@ -4,7 +4,7 @@ import threading
 
 audio_folder = "audio/"      // Set folder where audio file exists, Default : audio/
 frequency = "91.8"           // Set frequency for broadcasting, Default : 91.8 MHz
-fm_transmitter_folder = "fm_transmitter-master/bin/Release/fm_transmitter"  //fm_transmitter folder
+fm_transmitter_folder = "~/fm_transmitter-master/bin/Release/fm_transmitter"  //fm_transmitter folder
 """ WARNING :-
 > Change the fm_transmitter_folder value only when this doesn't work .
 """
