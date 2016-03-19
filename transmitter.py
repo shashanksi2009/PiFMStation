@@ -1,10 +1,12 @@
-
 import time
 import os
 import threading
 
+audio_folder = "audio/"      // Set folder where audio file exists, Default : audio/
+frequency = "91.8"           // Set frequency for broadcasting, Default : 91.8 MHz
+
 notDone=True
-files=os.listdir("/media/radio")
+files=os.listdir( audio_folder )
 if os.path.isfile("~tmp1.wav"):
         os.system("rm ~tmp1.wav")
 if os.path.isfile("~tmp2.wav"):
@@ -25,7 +27,7 @@ def play():
                                 time.sleep(2)
                                 print "Now playing , " + playing + " ..."
                                 firstTime=False
-                                os.system("fm_transmitter-master/bin/Release/fm_transmitter ~tmp2.wav 90.6")
+                                os.system("fm_transmitter-master/bin/Release/fm_transmitter ~tmp2.wav " + frequency)
 
 def convert():
         global saved
