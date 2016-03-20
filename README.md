@@ -1,5 +1,14 @@
-# PiFMStation
-This is my simple one file python program to turn your Raspberry Pi into mini FM station .
+# fm_transmitter
+Raspberry Pi as FM transmitter, custom source
 
+# Build
 
-## Setup
+``make -j4``
+
+# Run
+
+Pick an unused frequiency in the FM range (be a good citizen and play nice).
+
+```
+./bin/Release/fm_transmitter starwars.wav 103.5
+```
