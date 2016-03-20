@@ -2,11 +2,11 @@ import time
 import os
 import threading
 
-audio_folder = "audio/"      // Set folder where audio file exists, Default : audio/
-frequency = "91.8"           // Set frequency for broadcasting, Default : 91.8 MHz
-fm_transmitter_folder = "~/fm_transmitter-master/bin/Release/fm_transmitter"  //fm_transmitter folder
+audio_folder = "playlist/"      // Set folder where audio file exists, Default : playlist/
+frequency = "100.7"           // Set frequency for broadcasting, Default : 100.7 MHz
+fm_transmitter_folder = "fm_transmitter/bin/Release/fm_transmitter"  //fm_transmitter folder
 """ WARNING :-
-> Change the fm_transmitter_folder value only when this doesn't work .
+> Don't change value of fm_transmitter_folder
 """
 
 
@@ -42,7 +42,7 @@ def convert():
                         while notDone:
                                 if os.path.isfile("~tmp1.wav")==False:
                                         saved=file
-                                        os.system('sox -c 1 -v 1.0 -r 96k  "/media/radio/'+file+'" ~tmp1.wav')
+                                        os.system('sox -c 1 -v 1.0 -r 96k  "' + audio_folder + file+'" ~tmp1.wav')
                                         if firstTime==False:
                                                 print "Next playing , "+saved+" ..."
                                         notDone=False
