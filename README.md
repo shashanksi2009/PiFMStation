@@ -12,13 +12,13 @@ This uses hardware on the raspberry pi which generate spread spectrum clock sign
 
 ## Features
 
-   This is modification to fm_transmitter by markondej .
+   PiFMStation supports :-
    
-   I added following features :-
-   
-        1> Playlist play .
-        2> More extensions support .
-        3> Display current and upcoming song .
+         * Easy to use .
+         * Playlist play .
+         * Various extensions support .
+         * Display current and upcoming song .
+         * Best performance and sound .
    
 ## Setup
 
