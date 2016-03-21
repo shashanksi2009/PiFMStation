@@ -49,17 +49,17 @@ For setting your mini FM station , execute following on terminal :-
 
       $> sudo nano transmitter.py
 
-Change the following line
+Change the following lines :-
 
       frequeny = 100.7 (default) // desire value from 87.5 MHz to 107.9 MHz
       
-      audio_folder = "playlist/" ( default folder for your songs ) // You may paste songs in playlist folder or change audio_folder value to a folder which ontains your audio file(s) but don't forget '/' at the end .
+      audio_folder = "playlist/" ( default folder for your songs ) // You may paste songs in playlist folder or change audio_folder value to a folder which contains your audio file(s) but don't forget '/' at the end .
 
 Save and exit file ( Ctrl+O then Ctrl+X ) .
 
 ##Run
 
-Pick an unused frequiency in the FM range and place your songs in audio folder.
+Pick an unused frequency in the FM range and place your songs in audio folder.
 Reboot your device ....
 
 To run , type in terminal :-
