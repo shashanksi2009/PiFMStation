@@ -5,19 +5,19 @@ This is my small work which will bring you some joy . This is actually my final 
 
 ## Basics
 
-This uses hardware on the raspberry pi which generate spread spectrum clock signal on GPIO4 pin for FM radio energy . It even works without any antenna ( very powerful ) . Plug 20 cm long copper wire as antenna ( size may vary but range changes ) . It's range increases from  ~ 10 cm to 100 m with antenna . This requires hardware access , so run this program as SuperUser .
+This uses hardware on the raspberry pi which generate spread spectrum clock signal on GPIO4 pin for FM radio energy . It even works without any antenna ( very powerful ) . Plug 20 cm long copper wire as antenna ( size may vary but range changes ) . It's range increases from  ~ 10 cm without antenna to ~ 100 m with antenna . This requires hardware access , so run this program as SuperUser .
 
    NOTE:
-          The Raspberry Pi’s broadcast frequency can range between 1Mhz and 250Mhz, which may interfere with government bands. We advise that you limit your transmissions to the standard FM band of 87.5MHz–107.9MHz (see Step 3) and always choose a frequency that’s not already in use, to avoid interference with licensed broadcasters. Be a good citizen .
+          The Raspberry Pi’s broadcast frequency can range between 1Mhz and 250Mhz, which may interfere with government bands. I advise that you limit your transmissions to the standard FM band of 87.5MHz–107.9MHz and always choose a frequency that’s not already in use, to avoid interference with licensed broadcasters. Be a good citizen .
 
 ## Features
 
-   Modification to fm_transmitter by markondej .
+   This is modification to fm_transmitter by markondej .
    
    I added following features :-
    
-        1> Playlist play
-        2> More extensions support
+        1> Playlist play .
+        2> More extensions support .
         3> Display current and upcoming song .
    
 ## Setup
@@ -53,7 +53,7 @@ Change the following line
 
       frequeny = 100.7 (default) // desire value from 87.5 MHz to 107.9 MHz
       
-      audio_folder = "playlist/" ( default folder for your songs ) // You may paste songs in playlist folder or change audio_folder value to a folder which ontains your audio file(s) but don't forget '/' at the end
+      audio_folder = "playlist/" ( default folder for your songs ) // You may paste songs in playlist folder or change audio_folder value to a folder which ontains your audio file(s) but don't forget '/' at the end .
 
 Save and exit file ( Ctrl+O then Ctrl+X ) .
 
@@ -73,4 +73,4 @@ To stop , press,
 
 
 
-ENJOY YOUR COOL FM STATION ..........................
+ENJOY YOUR COOL FM RADIO STATION ..........................
