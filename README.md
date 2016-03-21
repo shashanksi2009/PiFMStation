@@ -17,8 +17,7 @@ This uses hardware on the raspberry pi which generate spread spectrum clock sign
          * Easy to use .
          * Playlist play .
          * Various extensions support .
-         * Display current and upcoming song .
-         * Best performance and sound .
+         * Best performance and loud sound .
    
 ## Setup
 
