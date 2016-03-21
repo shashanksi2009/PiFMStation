@@ -1,5 +1,5 @@
-# Audio folder -- include all audio files
+# Default audio folder -- include all audio files
 
-Paste all audios in this folder .
+Paste all your songs here .
 
-Don't worry about format as PiFMStation support large range of audio extension support .
+Don't worry about format as PiFMStation support large range of audio extension .
