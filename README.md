@@ -10,7 +10,16 @@ This uses hardware on the raspberry pi which generate spread spectrum clock sign
    NOTE:
           The Raspberry Pi’s broadcast frequency can range between 1Mhz and 250Mhz, which may interfere with government bands. We advise that you limit your transmissions to the standard FM band of 87.5MHz–107.9MHz (see Step 3) and always choose a frequency that’s not already in use, to avoid interference with licensed broadcasters. Be a good citizen .
 
+## Features
 
+   Modification to fm_transmitter by markondej .
+   
+   I added following features :-
+   
+        1> Playlist play
+        2> More extensions support
+        3> Display current and upcoming song .
+   
 ## Setup
 
        $> cd ~
@@ -26,10 +35,42 @@ This uses hardware on the raspberry pi which generate spread spectrum clock sign
    
    Setup completed successfully .....
 
-# Run
+##Test
 
-Pick an unused frequiency in the FM range (be a good citizen and play nice).
+To test all set correctly , run following :-
 
-```
-./bin/Release/fm_transmitter starwars.wav 103.5
-```
+      $> sudo python transmitter.py
+
+Now turn on your radio , if you are able to listen some sound @ 100.7 Mhz then all set nicely .
+
+##Settings
+
+For setting your mini FM station , execute following on terminal :-
+
+      $> sudo nano transmitter.py
+
+Change the following line
+
+      frequeny = 100.7 (default) // desire value from 87.5 MHz to 107.9 MHz
+      
+      audio_folder = "playlist/" ( default folder for your songs ) // You may paste songs in playlist folder or change audio_folder value to a folder which ontains your audio file(s) but don't forget '/' at the end
+
+Save and exit file ( Ctrl+O then Ctrl+X ) .
+
+##Run
+
+Pick an unused frequiency in the FM range and place your songs in audio folder.
+Reboot your device ....
+
+To run , type in terminal :-
+
+      $> cd ~/pifmstation
+      $> sudo python transmitter.py
+
+To stop , press,
+
+      Ctrl + Z
+
+
+
+ENJOY YOUR COOL FM STATION ..........................
