@@ -1,7 +1,7 @@
 # PiFMStation
 Turns your Raspberry Pi into mini FM radio station ( No additional HARDWARE required )
 
-This is my small work which will bring you some joy . This is actually my final setup for my own pi for best quality and performance . I used various software for audio transmission over FM frequency , fm_transmitter works best . This repo contains following :-  fm_transmitter ( by MARKONDEJ ) , my python script ( transmitter.py ) and tricky configuration .
+This is my small work which will bring you some joy . This is actually my final setup for my own pi for best quality and performance . I used various software for audio transmission over FM frequency , fm_transmitter works best . This repo contains following :-      fm_transmitter ( by MARKONDEJ ) , my python script ( transmitter.py ) and tricky configuration .
 
 ## Basics
 
